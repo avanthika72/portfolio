@@ -3,87 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avanthika S - Portfolio</title>
+    <title>Avanthika S - Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Avanthika S</h1>
-        <p>Kerala, India | <a href="mailto:avanthikayes72@gmail.com">avanthikayes72@gmail.com</a> | +91 73067 95179</p>
-        <p>
-            <a href="https://www.linkedin.com/in/avanthika-s-598328291/">LinkedIn</a> | 
-            <a href="https://github.com/avanthika72">GitHub</a> | 
-            <a href="https://www.hackerrank.com/profile/avanthikayes72">HackerRank</a>
-        </p>
+    <header id="home">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Avanthika S</span></h1>
+            <p>Enthusiastic Computer Science student passionate about Web Development, AI, and Data Science.</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Enthusiastic Computer Science student with a strong foundation in Python programming and problem-solving. Eager to gain hands-on experience and grow as a developer.</p>
-        </section>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Avanthika, a Computer Science student with a strong foundation in Python programming and web development.
+                I am currently pursuing a B.Tech in Computer Science & Engineering with Honours in Security in Computing. My passion lies in leveraging technology to solve real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
             <h2>Technical Skills</h2>
-            <ul>
+            <ul class="skills-list">
                 <li><strong>Programming Languages:</strong> Python, Java, C</li>
                 <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
                 <li><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Figma, MS Office</li>
                 <li><strong>Areas of Interest:</strong> Web Development, Data Science, AI & Machine Learning</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li><strong>St. Joseph's College of Engineering and Technology, Palai</strong> (2023 - Present)<br>B.Tech in Computer Science & Engineering with Honours in Security in Computing<br>CGPA: 9.97</li>
-                <li><strong>Sanjos Public School, Choondacherry</strong> (2021 - 2023)<br>Senior Secondary Education, Science Stream<br>Scored 95.6% in Class 12</li>
-                <li><strong>Sanjos Public School, Choondacherry</strong> (2017 - 2021)<br>High School Education<br>Scored 98% in Class 10</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-            <h3>Machine Learning Intern</h3>
-            <ul>
-                <li>Developed an online fraud detection model using logistic regression.</li>
-                <li>Authored a comprehensive report on user-defined functions in Python.</li>
-                <li><strong>Achievements:</strong> Industrial training certificate, Letter of recommendation.</li>
-            </ul>
-        </section>
-
-        <section>
+    <section id="projects">
+        <div class="container">
             <h2>Projects</h2>
-            <ul>
-                <li><strong>QuizApp:</strong> Responsive quiz web application built using HTML, CSS, and JavaScript.</li>
-                <li><strong>MiniMe:</strong> AI-powered virtual assistant using ElevenLabs TTS API.</li>
-                <li><strong>Root Access:</strong> Event website for SJCET Tech Fest with responsive layouts and smooth navigation.</li>
-            </ul>
-        </section>
+            <div class="project">
+                <h3>QuizApp</h3>
+                <p>A responsive quiz web application built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>MiniMe</h3>
+                <p>An AI-powered virtual assistant using ElevenLabs TTS API. Designed a user-friendly interface with HTML, CSS, and JS.</p>
+            </div>
+            <div class="project">
+                <h3>Root Access</h3>
+                <p>Event website for SJCET Tech Fest with responsive layouts and smooth navigation.</p>
+            </div>
+        </div>
+    </section>
 
-        <section>
-            <h2>Certifications</h2>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to connect, feel free to reach out!</p>
             <ul>
-                <li>GTEC Computer Education – Graduate in Employability Enhancement Program (Nov 2023)</li>
-                <li>HackerRank – Python (Basic) (July 2024)</li>
-                <li>NPTEL - Python for Data Science (Oct 2024)</li>
-                <li>Infosys Springboard - Java Programming Fundamentals (Oct 2024)</li>
-                <li>Infosys Springboard - Data Structures and Algorithms (Nov 2024)</li>
-                <li>Infosys Springboard – CompTIA IT Fundamentals: Operating Systems (Mar 2025)</li>
+                <li><strong>Email:</strong> <a href="mailto:avanthikayes72@gmail.com">avanthikayes72@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/avanthika72">avanthika72</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/avanthika-s-598328291/">Avanthika S</a></li>
             </ul>
-        </section>
-
-        <section>
-            <h2>Achievements</h2>
-            <ul>
-                <li>Third Prize in All Kerala Higher Secondary Level Mathematics Quiz Competition (2022)</li>
-                <li>Rank 1223 in Kerala Engineering, Architecture, and Medical Entrance Exam (2023)</li>
-            </ul>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2025 Avanthika S</p>
+        <p>&copy; 2025 Avanthika S. All rights reserved.</p>
     </footer>
 </body>
 </html>
